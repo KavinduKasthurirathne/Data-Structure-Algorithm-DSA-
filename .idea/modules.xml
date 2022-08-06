@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DSA.iml" filepath="$PROJECT_DIR$/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA_Lab01/DSA_Lab01.iml" filepath="$PROJECT_DIR$/DSA_Lab01/DSA_Lab01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA_Lab02/DSA_Lab02.iml" filepath="$PROJECT_DIR$/DSA_Lab02/DSA_Lab02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA_Queue/DSA_Queue.iml" filepath="$PROJECT_DIR$/DSA_Queue/DSA_Queue.iml" />
+    </modules>
+  </component>
+</project>

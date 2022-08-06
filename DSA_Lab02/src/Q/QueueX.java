@@ -1,0 +1,65 @@
+package Q;
+
+public class QueueX {
+    private int maxSize;
+    private int front;
+    private int rear;
+    private int [] queueArr;
+    private int noItems;
+
+    public QueueX (int s) {
+        this.maxSize = s;
+        this.front = 0;
+        this.rear = -1;
+        this.queueArr = new int[s];
+        this.noItems = 0;
+    }
+
+    public void insert(int j) {
+        if(rear == maxSize - 1) {
+            System.out.println("Queue is Full!");
+        }
+        else {
+            queueArr[++rear] = j;
+            noItems++;
+        }
+    }
+    public int remove() {
+        if(noItems == 0) {
+            return -99;
+        }
+        else {
+            noItems--;
+            return queueArr[front++];
+        }
+    }
+
+    public int peekFront() {
+        if(noItems == 0) {
+            return -99;
+        }
+        else {
+            return queueArr[front];
+        }
+    }
+    public boolean isEmpty() {
+        if(front == -1) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    public boolean isFull() {
+        if(front == 0 && rear == maxSize - 1) {
+            return true;
+        }
+        if(front == rear + 1) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+}
