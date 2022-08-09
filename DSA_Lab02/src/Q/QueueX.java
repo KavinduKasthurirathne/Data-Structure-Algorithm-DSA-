@@ -24,8 +24,10 @@ public class QueueX {
             noItems++;
         }
     }
+
     public int remove() {
         if(noItems == 0) {
+            System.out.println("Queue is Empty!");
             return -99;
         }
         else {
@@ -34,14 +36,6 @@ public class QueueX {
         }
     }
 
-    public int peekFront() {
-        if(noItems == 0) {
-            return -99;
-        }
-        else {
-            return queueArr[front];
-        }
-    }
     public boolean isEmpty() {
         if(noItems == 0) {
             return true;
