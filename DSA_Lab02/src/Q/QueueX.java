@@ -11,7 +11,7 @@ public class QueueX {
         this.maxSize = s;
         this.front = 0;
         this.rear = -1;
-        this.queueArr = new int[s];
+        this.queueArr = new int[maxSize];
         this.noItems = 0;
     }
 
@@ -43,7 +43,7 @@ public class QueueX {
         }
     }
     public boolean isEmpty() {
-        if(front == -1) {
+        if(noItems == 0) {
             return true;
         }
         else {
@@ -52,10 +52,7 @@ public class QueueX {
     }
 
     public boolean isFull() {
-        if(front == 0 && rear == maxSize - 1) {
-            return true;
-        }
-        if(front == rear + 1) {
+        if(rear == maxSize - 1) {
             return true;
         }
         else {
