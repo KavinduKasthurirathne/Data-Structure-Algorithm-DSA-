@@ -17,11 +17,13 @@ public class Main {
             mainQueue.insert(inputStr); //Inserting inputs to the queue
         }
 
+        //Object creation for oddQueue & evenQueue
         QueueX evenQueue = new QueueX(5);
         QueueX oddQueue = new QueueX(5);
 
         int value;
 
+        //Check the remainder to check odd & even
         while(!mainQueue.isEmpty()) {
             value = mainQueue.remove();
             if(value % 2 == 0) {
@@ -32,11 +34,13 @@ public class Main {
             }
         }
 
+        //Remove and display evenIDs
         System.out.println("PC1");
         while(!evenQueue.isEmpty()) {
             System.out.println("Transaction ID: " +evenQueue.remove());
         }
 
+        //Remove and display oddIDs
         System.out.println("PC2");
         while(!oddQueue.isEmpty()) {
             System.out.println("Transaction ID: " +oddQueue.remove());
