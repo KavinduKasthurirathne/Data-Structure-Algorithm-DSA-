@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/DSA_Lab03/DSA_Lab03.iml" filepath="$PROJECT_DIR$/DSA_Lab03/DSA_Lab03.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA_LinkedList/DSA_LinkedList.iml" filepath="$PROJECT_DIR$/DSA_LinkedList/DSA_LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA_Queue/DSA_Queue.iml" filepath="$PROJECT_DIR$/DSA_Queue/DSA_Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA_Stack/DSA_Stack.iml" filepath="$PROJECT_DIR$/DSA_Stack/DSA_Stack.iml" />
     </modules>
   </component>
 </project>

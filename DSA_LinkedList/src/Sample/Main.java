@@ -15,11 +15,5 @@ public class Main {
         newLink.deleteFirst().displayLink();
         newLink.deleteFirst().displayLink();
 
-        //while(!newLink.isEmpty()) {
-        //    Link link = newLink.deleteFirst();
-        //    System.out.println("Deleted");
-        //    link.displayLink();
-        //}
-
     }
 }
