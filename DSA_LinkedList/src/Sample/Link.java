@@ -8,7 +8,6 @@ public class Link {
         this.iData = ID;
         this.next = null;
     }
-
     //Display data items
     public void displayLink() {
         System.out.println("Data: " +this.iData);
